@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC9805721C1BF872008F5936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9805711C1BF872008F5936 /* main.m */; };
+		CC9805751C1BF872008F5936 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9805741C1BF872008F5936 /* AppDelegate.m */; };
+		CC9805781C1BF872008F5936 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9805771C1BF872008F5936 /* ViewController.m */; };
+		CC98057B1C1BF872008F5936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9805791C1BF872008F5936 /* Main.storyboard */; };
+		CC98057D1C1BF872008F5936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC98057C1C1BF872008F5936 /* Assets.xcassets */; };
+		CC9805801C1BF872008F5936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC98057E1C1BF872008F5936 /* LaunchScreen.storyboard */; };
+		CC98058B1C1BF872008F5936 /* _2_GestureReongnizerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC98058A1C1BF872008F5936 /* _2_GestureReongnizerDemoTests.m */; };
+		CC9805961C1BF872008F5936 /* _2_GestureReongnizerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9805951C1BF872008F5936 /* _2_GestureReongnizerDemoUITests.m */; };
+		CC9805A71C1BF8BD008F5936 /* CyanSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9805A41C1BF8BD008F5936 /* CyanSquare.png */; };
+		CC9805A81C1BF8BD008F5936 /* MagentaSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9805A51C1BF8BD008F5936 /* MagentaSquare.png */; };
+		CC9805A91C1BF8BD008F5936 /* YellowSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9805A61C1BF8BD008F5936 /* YellowSquare.png */; };
+		CC9805AC1C1C056C008F5936 /* QYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9805AB1C1C056C008F5936 /* QYImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC9805871C1BF872008F5936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9805651C1BF872008F5936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC98056C1C1BF872008F5936;
+			remoteInfo = "02-GestureReongnizerDemo";
+		};
+		CC9805921C1BF872008F5936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9805651C1BF872008F5936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC98056C1C1BF872008F5936;
+			remoteInfo = "02-GestureReongnizerDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC98056D1C1BF872008F5936 /* 02-GestureReongnizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-GestureReongnizerDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9805711C1BF872008F5936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC9805731C1BF872008F5936 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC9805741C1BF872008F5936 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC9805761C1BF872008F5936 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC9805771C1BF872008F5936 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC98057A1C1BF872008F5936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC98057C1C1BF872008F5936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC98057F1C1BF872008F5936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC9805811C1BF872008F5936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9805861C1BF872008F5936 /* 02-GestureReongnizerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-GestureReongnizerDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC98058A1C1BF872008F5936 /* _2_GestureReongnizerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_GestureReongnizerDemoTests.m; sourceTree = "<group>"; };
+		CC98058C1C1BF872008F5936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9805911C1BF872008F5936 /* 02-GestureReongnizerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-GestureReongnizerDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9805951C1BF872008F5936 /* _2_GestureReongnizerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_GestureReongnizerDemoUITests.m; sourceTree = "<group>"; };
+		CC9805971C1BF872008F5936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9805A41C1BF8BD008F5936 /* CyanSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CyanSquare.png; sourceTree = "<group>"; };
+		CC9805A51C1BF8BD008F5936 /* MagentaSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagentaSquare.png; sourceTree = "<group>"; };
+		CC9805A61C1BF8BD008F5936 /* YellowSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowSquare.png; sourceTree = "<group>"; };
+		CC9805AA1C1C056C008F5936 /* QYImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYImageView.h; sourceTree = "<group>"; };
+		CC9805AB1C1C056C008F5936 /* QYImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC98056A1C1BF872008F5936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9805831C1BF872008F5936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC98058E1C1BF872008F5936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC9805641C1BF872008F5936 = {
+			isa = PBXGroup;
+			children = (
+				CC98056F1C1BF872008F5936 /* 02-GestureReongnizerDemo */,
+				CC9805891C1BF872008F5936 /* 02-GestureReongnizerDemoTests */,
+				CC9805941C1BF872008F5936 /* 02-GestureReongnizerDemoUITests */,
+				CC98056E1C1BF872008F5936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC98056E1C1BF872008F5936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC98056D1C1BF872008F5936 /* 02-GestureReongnizerDemo.app */,
+				CC9805861C1BF872008F5936 /* 02-GestureReongnizerDemoTests.xctest */,
+				CC9805911C1BF872008F5936 /* 02-GestureReongnizerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC98056F1C1BF872008F5936 /* 02-GestureReongnizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC9805731C1BF872008F5936 /* AppDelegate.h */,
+				CC9805741C1BF872008F5936 /* AppDelegate.m */,
+				CC9805761C1BF872008F5936 /* ViewController.h */,
+				CC9805771C1BF872008F5936 /* ViewController.m */,
+				CC9805AA1C1C056C008F5936 /* QYImageView.h */,
+				CC9805AB1C1C056C008F5936 /* QYImageView.m */,
+				CC9805791C1BF872008F5936 /* Main.storyboard */,
+				CC98057C1C1BF872008F5936 /* Assets.xcassets */,
+				CC98057E1C1BF872008F5936 /* LaunchScreen.storyboard */,
+				CC9805811C1BF872008F5936 /* Info.plist */,
+				CC9805701C1BF872008F5936 /* Supporting Files */,
+			);
+			path = "02-GestureReongnizerDemo";
+			sourceTree = "<group>";
+		};
+		CC9805701C1BF872008F5936 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC9805A31C1BF8BD008F5936 /* materials */,
+				CC9805711C1BF872008F5936 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC9805891C1BF872008F5936 /* 02-GestureReongnizerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC98058A1C1BF872008F5936 /* _2_GestureReongnizerDemoTests.m */,
+				CC98058C1C1BF872008F5936 /* Info.plist */,
+			);
+			path = "02-GestureReongnizerDemoTests";
+			sourceTree = "<group>";
+		};
+		CC9805941C1BF872008F5936 /* 02-GestureReongnizerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9805951C1BF872008F5936 /* _2_GestureReongnizerDemoUITests.m */,
+				CC9805971C1BF872008F5936 /* Info.plist */,
+			);
+			path = "02-GestureReongnizerDemoUITests";
+			sourceTree = "<group>";
+		};
+		CC9805A31C1BF8BD008F5936 /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				CC9805A41C1BF8BD008F5936 /* CyanSquare.png */,
+				CC9805A51C1BF8BD008F5936 /* MagentaSquare.png */,
+				CC9805A61C1BF8BD008F5936 /* YellowSquare.png */,
+			);
+			path = materials;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC98056C1C1BF872008F5936 /* 02-GestureReongnizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC98059A1C1BF872008F5936 /* Build configuration list for PBXNativeTarget "02-GestureReongnizerDemo" */;
+			buildPhases = (
+				CC9805691C1BF872008F5936 /* Sources */,
+				CC98056A1C1BF872008F5936 /* Frameworks */,
+				CC98056B1C1BF872008F5936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-GestureReongnizerDemo";
+			productName = "02-GestureReongnizerDemo";
+			productReference = CC98056D1C1BF872008F5936 /* 02-GestureReongnizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC9805851C1BF872008F5936 /* 02-GestureReongnizerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC98059D1C1BF872008F5936 /* Build configuration list for PBXNativeTarget "02-GestureReongnizerDemoTests" */;
+			buildPhases = (
+				CC9805821C1BF872008F5936 /* Sources */,
+				CC9805831C1BF872008F5936 /* Frameworks */,
+				CC9805841C1BF872008F5936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC9805881C1BF872008F5936 /* PBXTargetDependency */,
+			);
+			name = "02-GestureReongnizerDemoTests";
+			productName = "02-GestureReongnizerDemoTests";
+			productReference = CC9805861C1BF872008F5936 /* 02-GestureReongnizerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC9805901C1BF872008F5936 /* 02-GestureReongnizerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9805A01C1BF872008F5936 /* Build configuration list for PBXNativeTarget "02-GestureReongnizerDemoUITests" */;
+			buildPhases = (
+				CC98058D1C1BF872008F5936 /* Sources */,
+				CC98058E1C1BF872008F5936 /* Frameworks */,
+				CC98058F1C1BF872008F5936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC9805931C1BF872008F5936 /* PBXTargetDependency */,
+			);
+			name = "02-GestureReongnizerDemoUITests";
+			productName = "02-GestureReongnizerDemoUITests";
+			productReference = CC9805911C1BF872008F5936 /* 02-GestureReongnizerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC9805651C1BF872008F5936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC98056C1C1BF872008F5936 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CC9805851C1BF872008F5936 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CC98056C1C1BF872008F5936;
+					};
+					CC9805901C1BF872008F5936 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CC98056C1C1BF872008F5936;
+					};
+				};
+			};
+			buildConfigurationList = CC9805681C1BF872008F5936 /* Build configuration list for PBXProject "02-GestureReongnizerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC9805641C1BF872008F5936;
+			productRefGroup = CC98056E1C1BF872008F5936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC98056C1C1BF872008F5936 /* 02-GestureReongnizerDemo */,
+				CC9805851C1BF872008F5936 /* 02-GestureReongnizerDemoTests */,
+				CC9805901C1BF872008F5936 /* 02-GestureReongnizerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC98056B1C1BF872008F5936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9805801C1BF872008F5936 /* LaunchScreen.storyboard in Resources */,
+				CC9805A71C1BF8BD008F5936 /* CyanSquare.png in Resources */,
+				CC98057D1C1BF872008F5936 /* Assets.xcassets in Resources */,
+				CC98057B1C1BF872008F5936 /* Main.storyboard in Resources */,
+				CC9805A91C1BF8BD008F5936 /* YellowSquare.png in Resources */,
+				CC9805A81C1BF8BD008F5936 /* MagentaSquare.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9805841C1BF872008F5936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC98058F1C1BF872008F5936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC9805691C1BF872008F5936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9805AC1C1C056C008F5936 /* QYImageView.m in Sources */,
+				CC9805781C1BF872008F5936 /* ViewController.m in Sources */,
+				CC9805751C1BF872008F5936 /* AppDelegate.m in Sources */,
+				CC9805721C1BF872008F5936 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9805821C1BF872008F5936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC98058B1C1BF872008F5936 /* _2_GestureReongnizerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC98058D1C1BF872008F5936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9805961C1BF872008F5936 /* _2_GestureReongnizerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC9805881C1BF872008F5936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC98056C1C1BF872008F5936 /* 02-GestureReongnizerDemo */;
+			targetProxy = CC9805871C1BF872008F5936 /* PBXContainerItemProxy */;
+		};
+		CC9805931C1BF872008F5936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC98056C1C1BF872008F5936 /* 02-GestureReongnizerDemo */;
+			targetProxy = CC9805921C1BF872008F5936 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC9805791C1BF872008F5936 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC98057A1C1BF872008F5936 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC98057E1C1BF872008F5936 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC98057F1C1BF872008F5936 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC9805981C1BF872008F5936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC9805991C1BF872008F5936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC98059B1C1BF872008F5936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-GestureReongnizerDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-2-GestureReongnizerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC98059C1C1BF872008F5936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-GestureReongnizerDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-2-GestureReongnizerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC98059E1C1BF872008F5936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-GestureReongnizerDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-2-GestureReongnizerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-GestureReongnizerDemo.app/02-GestureReongnizerDemo";
+			};
+			name = Debug;
+		};
+		CC98059F1C1BF872008F5936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-GestureReongnizerDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-2-GestureReongnizerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-GestureReongnizerDemo.app/02-GestureReongnizerDemo";
+			};
+			name = Release;
+		};
+		CC9805A11C1BF872008F5936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-GestureReongnizerDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-2-GestureReongnizerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-GestureReongnizerDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC9805A21C1BF872008F5936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-GestureReongnizerDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-2-GestureReongnizerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-GestureReongnizerDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC9805681C1BF872008F5936 /* Build configuration list for PBXProject "02-GestureReongnizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9805981C1BF872008F5936 /* Debug */,
+				CC9805991C1BF872008F5936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC98059A1C1BF872008F5936 /* Build configuration list for PBXNativeTarget "02-GestureReongnizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC98059B1C1BF872008F5936 /* Debug */,
+				CC98059C1C1BF872008F5936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC98059D1C1BF872008F5936 /* Build configuration list for PBXNativeTarget "02-GestureReongnizerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC98059E1C1BF872008F5936 /* Debug */,
+				CC98059F1C1BF872008F5936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9805A01C1BF872008F5936 /* Build configuration list for PBXNativeTarget "02-GestureReongnizerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9805A11C1BF872008F5936 /* Debug */,
+				CC9805A21C1BF872008F5936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC9805651C1BF872008F5936 /* Project object */;
+}
